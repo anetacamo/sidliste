@@ -1,0 +1,2 @@
+(this.webpackJsonpsjmp=this.webpackJsonpsjmp||[]).push([[4],{39:function(t,s,a){"use strict";a.r(s),s.default=a.p+"static/media/kapitola-ctvrta.08345ba2.md"}}]);
+//# sourceMappingURL=4.838e90e1.chunk.js.map
