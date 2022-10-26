@@ -1,0 +1,12 @@
+**Turistifikace** je transformační proces měst, který proměňuje oblasti z rezidenčních či komerčních na turistické. To může mít pozitivní, avšak také negativní vlivy na život a infrastrukturu ve městech. Z pozitivních dopadů lze zmínit například revitalizaci městských oblastí jako nástroj pro zatraktivnění městských prostorů pro turisty nebo příliv financí pro místní podnikání (Cocola-Gant, 2019). Mezi negativní dopady turistifikace patří gentrifikace (viz heslo gentrifikace) a také transformace městských oblastí jako místa pro spotřebu primárně turisty (Cocola-Gant, 2019). Turistifikace může vést k růstu cen pozemků a ohrozit tak schopnost splácení nájmu pro místní obyvatele, kteří z turismu sami neprofitují. Může také dojít k proměně místních podniků či obchodů na ty, které cílí pouze na turisty, a vést k nedostupnosti služeb využívaných stálými obyvateli (Pixová, Sládek, 2016). Tímto procesem pak dochází k postupnému odlivu původních obyvatel městských (a hlavně historických) částí na úkor turistů a jim přizpůsobených služeb. Často také dochází k přetížení místní infrastruktury nebo negativním vlivům na každodenní život, například kvůli nočnímu hluku.
+
+Negativní dopady turistifikace jsou spojeny s globálními trendy neoliberálního managementu měst (viz heslo neoliberalismus), které upřednostňují investice soukromého kapitálu a často zanedbávají plánování dlouhodobých strategií rozvoje měst (Pixová, Sládek, 2016). V praxi můžeme tento trend sledovat u problémů měst se službami takzvané zakázkové ekonomiky, jako je platforma pro krátkodobé poskytování podnájmu Airbnb (Cocola-Gant, 2016). Růst této platformy negativně ovlivnil život v mnoha městech, jako například v Praze, kde se mnohé rezidenční oblasti proměnily v místa krátkodobého pronájmu pro turisty. Tato forma nekontrolované turistifikace často nejen narušuje každodenní život obyvatel dané oblasti, ale také vede k dříve zmíněnému růstu cen nemovitostí a následné nedostupnosti bydlení pro původní obyvatele (Cocola-Gant, 2019).
+
+#### Zdroje a další doporučená četba
+
+- Cocola-Gant, A. (2016). „Holiday Rentals: The New Gentrification Battlefront.“ Sociological Research Online 21 (3): 10.
+
+- Cocola-Gant, A. (2019). „Gentrification and displacement: Urban inequality in cities of late capitalism.“ In Handbook of Urban Geography. Edward Elgar Publishing.
+
+- Pixová, M., Sládek, J. (2016). „Touristiﬁcation and awakening civil society in post-socialist Prague.“ Pp. 87–103 in Protest and Resistance in the Tourist City. Routledge.
+
