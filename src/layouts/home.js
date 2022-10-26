@@ -19,8 +19,47 @@ export default function Home() {
       </section>
       <Image nameClass={`panorama inverted bg-black`} path={"/bg3.png"} />
       <section className="bg-black">
+        <div className="kapitola">
+          <Heading text={"obsah publikace"} color="white" background="black" />
+          <div className="divider center"></div>
+        </div>
+        <div className={`menu-full flex-center-hor static`}>
+          {chapters.map((text) => (
+            <Link to={`/chapter/${slugify(text.type)}`}>
+              <h6>
+                {text.author.map((aut, index) =>
+                  index === text.author.length - 1 ? (
+                    <span key={index}>{aut}</span>
+                  ) : (
+                    <span key={index}>{aut}, </span>
+                  )
+                )}
+              </h6>
+              <Image path={`/kapitoly/${text.image}`} />
+              <h5>{text.title}</h5>
+            </Link>
+          ))}
+        </div>
+        <div className="divider center"></div>
         <div className="kapitola center">
-          <Heading text={"o projektu"} color="white" background="black" />
+          <h2>Slovník pojmů</h2>
+
+          {dictionary.map((word) => (
+            <Link to={`/pojem/${slugify(word)}`}>
+              <button>{word}</button>
+            </Link>
+          ))}
+          <p>
+            <i>autoři slovníčku</i> Tomáš Hoření Samec, Michal Lehečka, Jan Malý
+            Blažek, Agata Guńka
+          </p>
+        </div>
+      </section>
+
+      <Image nameClass={`panorama bg-black`} path={"/bg3.png"} />
+      <section className="bg-white" id="kapitoly">
+        <div className="kapitola center">
+          <Heading text={"videogalerie"} color="black" background="white" />
         </div>
         <div className="divider center"></div>
         <div className="flex-center" style={{ flexWrap: "wrap" }}>
@@ -59,42 +98,28 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Image nameClass={`panorama bg-black`} path={"/bg3.png"} />
-      <section className="bg-white" id="kapitoly">
-        <div className="kapitola">
-          <Heading text={"obsah publikace"} color="black" background="white" />
-          <div className="divider center"></div>
-        </div>
-        <div className={`menu-full flex-center-hor static`}>
-          {chapters.map((text) => (
-            <Link to={`/chapter/${slugify(text.type)}`}>
-              <h6>
-                {text.author.map((aut, index) =>
-                  index === text.author.length - 1 ? (
-                    <span key={index}>{aut}</span>
-                  ) : (
-                    <span key={index}>{aut}, </span>
-                  )
-                )}
-              </h6>
-              <Image path={`/kapitoly/${text.image}`} />
-              <h5>{text.title}</h5>
-            </Link>
-          ))}
-        </div>
-        <div className="divider center"></div>
-        <div className="kapitola center">
-          <h2>Slovník pojmů</h2>
-          {dictionary.map((word) => (
-            <Link to={`/pojem/${slugify(word)}`}>
-              <button>{word}</button>
-            </Link>
-          ))}
-        </div>
-      </section>
       <Image nameClass={`panorama inverted bg-black`} path={"/bg3.png"} />
       <section className="bg-black">
-        <div className="kapitola center"></div>
+        <div className="kapitola center">
+          <Heading text={"o projektu"} color="white" background="black" />
+          <p>
+            Tento web vznikl s podporou Strategie AV21 – program č. 23{" "}
+            <a href="http://strategieav21-mesto-stavby.cz/">
+              „Město jako laboratoř změny; Stavby, kulturní dědictví a prostředí
+              pro bezpečný a hodnotný život."
+            </a>
+            <br />
+            <br />
+            podpořené dotací Akademie věd České republiky v rámci aktivity
+            Politická ekonomie/ekologie měst realizované Sociologickým ústavem
+            AV ČR, v. v. i. v tématu “Město jako mocenský prostor”. <br />
+            <br />{" "}
+            <i>
+              Obsah webu a dokumentů vyjadřuje názor jejich autorek a autorů a
+              nemusí vyjadřovat oficiální stanovisko Akademie věd ČR.
+            </i>
+          </p>
+        </div>
       </section>
     </>
   );
