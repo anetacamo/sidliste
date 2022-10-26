@@ -1,4 +1,4 @@
-Pojem _dostupné bydlení_ se v české veřejné debatě objevuje stále častěji. Děje se tak i v
+Pojem **dostupné bydlení** se v české veřejné debatě objevuje stále častěji. Děje se tak i v
 reakci na to, že bydlení se stává v posledních letech stále méně finančně dostupným. A to
 jak bydlení vlastnické, kdy podle údajů Českého statistického úřadu vzrostly ceny
 nemovitostí mezi roky 2015–2021 dvojnásobně (ČSÚ, 2021), tak bydlení u soukromých
