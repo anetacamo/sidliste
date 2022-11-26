@@ -3,7 +3,7 @@
     "title": "Pražská panelová sídliště jako místa protikladů",
     "name": "Pražská panelová sídliště<br/>jako <b>místa protikladů</b>",
     "author": ["Petr Gibas", "Tomáš Hoření Samec"],
-    "type": "uvod",
+    "type": "Úvod",
     "dark": true,
     "image": "01.png",
     "text": "Pražská panelová sídliště jsou místa, kde se protíná mnoho protikladů: na jednu stranu jsou ceněna pro to, že zajistila praktické a relativně málo nákladné bydlení pro velký počet obyvatel, na druhou stranu byla často kritizována pro mnoho dílčích nedostatků i pro svůj celkový urbanistický koncept.",
@@ -76,7 +76,7 @@
   {
     "title": "Protiklady, a co dál?",
     "name": "<b>Protiklady,</b><br/> a co dál?",
-    "type": "zaver",
+    "type": "Závěr",
     "author": ["Tomáš Hoření Samec", "Petr Gibas"],
     "image": "09.png",
     "dark": true,

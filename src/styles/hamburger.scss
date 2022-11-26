@@ -11,14 +11,15 @@
     height: 2px;
   }
 }
-.long {
-  width: 30px;
-}
 .supershort {
   width: 16px;
 }
 .short {
   width: 22px;
+}
+.long {
+  width: 30px;
+  margin-bottom: 0px !important;
 }
 
 .animated:hover .long {

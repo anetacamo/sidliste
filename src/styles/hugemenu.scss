@@ -1,100 +1,131 @@
 /* huge menu */
-.menu-full {
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  place-items: stretch;
-  padding: 8px;
+.mobile-menu {
+  padding: 12px;
   position: fixed;
   z-index: 2;
   top: 0;
   left: -2000px;
-  height: calc(100vh - 16px);
-  width: calc(100vw - 16px);
+  height: calc(100vh - 24px);
+  width: calc(100vw - 24px);
   transition: 350ms ease;
   background: repeating-linear-gradient(45deg, blueviolet, red);
   &.open {
     left: 0px;
     transition: 350ms ease;
   }
-  &.static {
-    left: 0px;
-    position: static;
-    width: auto;
-    background-image: none;
-    height: auto;
-    max-width: 800px;
-    margin: auto;
-    a {
-      //background-image: repeating-linear-gradient(45deg, blueviolet, $red);
-      background-color: $red;
-      border: 1px solid $red;
-      background-image: linear-gradient(
-        135deg,
-        blueviolet 50%,
-        transparent 51%
-      );
+  a {
+    &:hover {
+      color: white;
+      transition-duration: 350ms;
+    }
+    color: black;
+    h3 {
+      color: white;
+      text-transform: none;
+    }
+    //text-decoration: none;
+    h4 {
+      color: black;
+      font-weight: 700;
+      font-size: 13px;
+      margin-top: -34px;
+      padding-left: 64px;
+      text-transform: none;
       &:hover {
-        border-color: blueviolet;
-      }
-    }
-    a:nth-of-type(1),
-    a:nth-of-type(5),
-    a:nth-of-type(9) {
-      background-color: black;
-      border: 1px solid black;
-      h6 {
         color: white;
+        transition-duration: 350ms;
       }
     }
+  }
+  .icon {
+    height: 32px;
+    width: 40px;
+    object-fit: contain;
+    margin: 4px;
   }
 }
-.menu-full a {
-  margin: 8px;
-  padding: 24px;
 
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+.menu-full {
+  flex-wrap: wrap;
   align-items: center;
-  flex: 1;
-  align-self: stretch;
-  justify-content: space-between;
-
-  text-decoration: none;
-  background-color: transparent;
-  color: white;
-  min-width: 160px;
-  max-width: 200px;
-  border: 4px red dashed;
-  @extend .colorful;
+  justify-content: center;
+  place-items: stretch;
+  padding: 8px;
   // background: repeating-linear-gradient(45deg, blueviolet, red);
-  img {
-    max-width: 72px;
-    max-height: 64px;
-    object-fit: contain;
-  }
-  h6 {
-    text-decoration: none;
-    color: black;
-    margin-top: 0;
-  }
-  h5 {
-    margin-bottom: 0;
-  }
-  @media (max-width: 900px) {
-    padding: 16px;
+  max-width: 800px;
+  margin: auto;
+
+  // left: 0px;
+  // position: static;
+  // width: auto;
+  // background-image: none;
+  // height: auto;
+  // max-width: 800px;
+  // margin: auto;
+
+  a:nth-of-type(1),
+  a:nth-of-type(5),
+  a:nth-of-type(9) {
+    background-color: black;
+    border: 1px solid black;
     h6 {
-      display: none;
+      color: white;
     }
-    justify-content: center;
-    h5 {
-      font-size: 10px;
+  }
+  a {
+    margin: 8px;
+    padding: 24px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    align-self: stretch;
+    justify-content: space-between;
+
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    min-width: 160px;
+    max-width: 200px;
+
+    @extend .colorful;
+
+    background-color: $red;
+    border: 1px solid $red;
+
+    &:hover {
+      border-color: blueviolet;
+      background-image: linear-gradient(135deg, #8a2be2 50%, transparent 51%);
     }
     img {
-      margin-bottom: -8px;
-      height: 40px;
-      width: 40px;
+      max-width: 72px;
+      max-height: 64px;
+      object-fit: contain;
+    }
+    h6 {
+      text-decoration: none;
+      color: black;
+      margin-top: 0;
+    }
+    h5 {
+      margin-bottom: 0;
+    }
+    @media (max-width: 900px) {
+      padding: 16px;
+      h6 {
+        display: none;
+      }
+      justify-content: center;
+      h5 {
+        font-size: 10px;
+      }
+      img {
+        margin-bottom: -8px;
+        height: 40px;
+        width: 40px;
+      }
     }
   }
 }

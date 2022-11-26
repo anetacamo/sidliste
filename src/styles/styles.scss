@@ -1,7 +1,8 @@
 .content {
-  width: calc(100vw - 60px);
-  padding-left: 60px;
-  //background-image: -webkit-linear-gradient(top, #f44, blueviolet);
+  @media (min-width: 501px) {
+    width: calc(100vw - 60px);
+    padding-left: 60px;
+  }
 }
 
 .full {
@@ -9,9 +10,6 @@
   padding: 16px;
   padding-top: 80px;
   background-color: white;
-  //background-image: -webkit-linear-gradient(top, #f44, blueviolet);
-  //background: radial-gradient(blueviolet, transparent);
-  //background-image: radial-gradient(circle at top left, #f44, blueviolet 75%);
 }
 
 section {
@@ -54,4 +52,18 @@ img {
 .panorama {
   margin-bottom: -12px;
   //background-color: #73ca00;
+}
+
+/* video */
+.video-container {
+  position: relative;
+  margin-bottom: 16px;
+  padding-bottom: 56.25%;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }

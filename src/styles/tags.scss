@@ -20,6 +20,11 @@ button {
     color: white;
     border-color: $red;
   }
+  @media (max-width: 600px) {
+    font-size: 9px;
+    padding: 8px 12px;
+    margin: 4px;
+  }
 }
 
 .bg-black button {
@@ -40,5 +45,6 @@ button {
   &:hover {
     background-size: 200% 200%; /* 200% because gradient is colored only for 50% */
     background-position: 0px 0px; /* bring it fully into view */
+    background-image: linear-gradient(135deg, #8a2be2 50%, transparent 51%);
   }
 }

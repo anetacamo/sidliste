@@ -11,6 +11,11 @@
   color: white;
   width: var(--menu-width);
   z-index: 2;
+  @media (max-width: 500px) {
+    background-image: -webkit-linear-gradient(left, #f44, blueviolet);
+    width: 100%;
+    height: auto;
+  }
 }
 .side-inner {
   padding: 8px 0;
@@ -24,14 +29,23 @@
     width: 40px;
     object-fit: contain;
     margin: 10px;
+    @media (max-width: 500px) {
+      margin-right: 18px;
+    }
   }
   .inner-top {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    img {
-      margin-bottom: 16px;
+    @media (max-width: 500px) {
+      align-items: center;
     }
+    @media (min-width: 501px) {
+      img {
+        margin-bottom: 16px;
+      }
+    }
+
     .vertical {
       writing-mode: vertical-rl;
       text-orientation: mixed;
@@ -59,6 +73,9 @@
 
 .side-bottom {
   width: var(--menu-width);
+  @media (max-width: 500px) {
+    display: none;
+  }
   .side-item:hover .hidden {
     margin-left: -75px;
   }
