@@ -7,7 +7,7 @@
     "dark": true,
     "image": "01.png",
     "text": "Pražská panelová sídliště jsou místa, kde se protíná mnoho protikladů: na jednu stranu jsou ceněna pro to, že zajistila praktické a relativně málo nákladné bydlení pro velký počet obyvatel, na druhou stranu byla často kritizována pro mnoho dílčích nedostatků i pro svůj celkový urbanistický koncept.",
-    "pojmy": ["", ""]
+    "pojmy": ["financializace-bydleni", "gentrifikace", "komodifikace-bydleni", "neoliberalismus", "privatismus", "privatizace-bydleni", "revitalizace", "participace-v-urbannim-planovani", "druzstevni-bydleni", "dostupne-bydleni", "zahustovani-sidlist", "vymisteni"]
   },
   {
     "title": "Proměny a protiklady pražských sídlišť optikou teoretických konceptů",
@@ -16,7 +16,7 @@
     "author": ["Michal Lehečka", "Tomáš Hoření Samec", "Václav Orcígr"],
     "image": "02.png",
     "text": "Procesy, které souvisejí s proměnou měst, by bylo nemožné adekvátně popsat bez použití teoretických pojmů, které umožňují pojmenovat, zobecnit a porovnávat různé procesy a odhalovat i jejich případnou protikladnost. V této kapitole se proto zaměřujeme na možnost, zda a jak lze aplikovat pojmy gentrifikace a financializace bydlení na realitu pražských sídlišť, protože dané pojmy odkazují na procesy, které se uskutečňují v celé řadě evropských metropolí.",
-    "pojmy": ["", ""]
+    "pojmy": ["financializace-bydleni", "gentrifikace", "komodifikace-bydleni", "neoliberalismus", "privatismus"]
   },
   {
     "title": "Střední třída na pražských sídlištích",
@@ -25,7 +25,7 @@
     "author": ["Ondřej Špaček"],
     "image": "03.png",
     "text": "Sociální a demografický charakter panelových sídlišť byl v českém kontextu do značné míry utvořen v momentě jejich vzniku, respektive v prvních letech jejich obydlování. Sídliště přitom nebyla výjimečná jen svým rozsahem, ale především tím, že tehdejší bytová politika silně preferovala při rozdělování zdejších nových bytů zejména mladé rodiny. ",
-    "pojmy": ["", ""]
+    "pojmy": ["privatismus", "privatizace-bydleni", "revitalizace", "participace-v-urbannim-planovani", "druzstevni-bydleni", "dostupne-bydleni"]
   },
   {
     "title": "Panelová sídliště ve filmu v období státního socialismu: nadšení a kritické ohlasy",
@@ -44,7 +44,7 @@
     "image": "05.png",
     "dark": true,
     "text": "Nejviditelnější proměny sídlišť jsou spojené s demolicí starých domů a novou výstavbou. Zateplení a různobarevné natření fasád paneláků bylo jistě velkým zásahem do vizuality sídlišť, ale když se dnes procházím po Stodůlkách, kde jsem vyrostl, tak si v první řadě všímám nových budov. ",
-    "pojmy": ["", ""]
+    "pojmy": ["revitalizace", "zahustovani-sidlist", "gentrifikace", "neoliberalismus", "komodifikace-bydleni"]
   },
   {
     "title": "Od domova k investici: sídliště Písnice jako symbol historické proměny funkce bydlení",
@@ -53,7 +53,7 @@
     "author": ["Apolena Rychlíková"],
     "image": "06.png",
     "text": "Výstup z metra na pražském Kačerově připomíná svým charakterem spíše nějaké z východoevropských měst než běžně známé prostředí české metropole. Na neudržovaných autobusových zastávkách se mačkají lidé a čekají na autobusy, které je rozvezou do okolních čtvrtí. Míří na okraj Prahy, tam, kam ani více než třicet let od roku 1989 nebyla dovedena plánovaná linka metra D.",
-    "pojmy": ["", ""]
+    "pojmy": ["financializace-bydleni", "gentrifikace", "zahustovani-sidlist", "komodifikace-bydleni", "vymisteni", "revitalizace", "druzstevni-bydleni"]
   },
   {
     "title": "Jihozápadní Město jako nový domov: etnická různorodost na pražských sídlištích",
@@ -62,7 +62,7 @@
     "author": ["Alžběta Medková"],
     "image": "07.png",
     "text": "Od doby svého vzniku v sobě panelová sídliště spojují dvě zdánlivě protikladné ideje. První je představa o sociální a ekonomické rovnosti jejich obyvatel, plynoucí především z podobných proporcí a charakteristik přidělovaných bytů. Druhou je myšlenka, že na sídlištích může být dosaženo toho, aby spolu v jedné čtvrti bydleli zástupci různých profesí: dělníci, inženýři, řemeslníci i profesoři.",
-    "pojmy": ["", ""]
+    "pojmy": ["gentrifikace", "vymisteni", "privatismus", "privatizace bydleni"]
   },
   {
     "title": "Černý Most a jeho čekání na revitalizaci",
@@ -71,7 +71,7 @@
     "author": ["Barbora Matysová"],
     "image": "08.png",
     "text": "Ten pocit [z přestěhování se na Černý Most] byl super, protože se mi splnilo to mý bydlení, protože jsem najednou dostala byt 3 + 1, kdy předtím jsem bydlela v hodně malém bytě. Co jsem se bála, tak to byly finance, protože ty se řeší pořád, ale pracovně jsme to v pohodě dali. Krásný bydlení, dostupnost, bylo tady to obchodní centrum, obyvatelka sídliště Černý Most, 53 let",
-    "pojmy": ["", ""]
+    "pojmy": ["revitalizace", "participace-v-urbannim-planovani", "privatismus"]
   },
   {
     "title": "Protiklady, a co dál?",
@@ -81,6 +81,6 @@
     "image": "09.png",
     "dark": true,
     "text": "Pražská panelová sídliště jsme v této publikaci představili jako místa protikladů, které je možné vnímat na různých rovinách: na rovině materiální, kde se v prostoru sídlišť potkává staré s novým, původní s revitalizovaným a kde jsou volné plochy zastavovány novými budovami; na rovině emocionální, kdy lidé různě vnímají materiální proměny sídliště a různě na ně reagují; na rovině symbolické, kde se potkávají různé významy spojené se sídlišti a bydlením; a také na rovině sociální, kde jsou sídliště vnímána jako relativně neměnná, co se týče ekonomického statusu jejich obyvatel, kdy se však zároveň objevují nové vrstvy různorodosti (například etnické) a dochází také k proměnám finanční dostupnosti bydlení na pražských sídlištích, která může přinášet i proměnu sociální struktury sídlišť.",
-    "pojmy": ["", ""]
+    "pojmy": ["financializace-bydleni", "gentrifikace", "komodifikace-bydleni", "neoliberalismus", "privatismus", "privatizace-bydleni", "revitalizace", "participace-v-urbannim-planovani", "druzstevni-bydleni", "dostupne-bydleni", "zahustovani-sidlist", "vymisteni"]
   }
 ]
