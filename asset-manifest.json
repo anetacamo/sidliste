@@ -2,11 +2,11 @@
   "files": {
     "static/js/0.15f2ea86.chunk.js": "/sidliste/static/js/0.15f2ea86.chunk.js",
     "static/js/0.15f2ea86.chunk.js.map": "/sidliste/static/js/0.15f2ea86.chunk.js.map",
-    "main.css": "/sidliste/static/css/main.be4c4761.chunk.css",
-    "main.js": "/sidliste/static/js/main.33172196.chunk.js",
-    "main.js.map": "/sidliste/static/js/main.33172196.chunk.js.map",
-    "runtime-main.js": "/sidliste/static/js/runtime-main.15e08843.js",
-    "runtime-main.js.map": "/sidliste/static/js/runtime-main.15e08843.js.map",
+    "main.css": "/sidliste/static/css/main.5551978a.chunk.css",
+    "main.js": "/sidliste/static/js/main.f8fa54bd.chunk.js",
+    "main.js.map": "/sidliste/static/js/main.f8fa54bd.chunk.js.map",
+    "runtime-main.js": "/sidliste/static/js/runtime-main.1172625d.js",
+    "runtime-main.js.map": "/sidliste/static/js/runtime-main.1172625d.js.map",
     "static/js/3.9fa85c91.chunk.js": "/sidliste/static/js/3.9fa85c91.chunk.js",
     "static/js/3.9fa85c91.chunk.js.map": "/sidliste/static/js/3.9fa85c91.chunk.js.map",
     "static/js/4.838e90e1.chunk.js": "/sidliste/static/js/4.838e90e1.chunk.js",
@@ -31,8 +31,8 @@
     "static/js/13.7e16d05a.chunk.js.map": "/sidliste/static/js/13.7e16d05a.chunk.js.map",
     "static/js/14.cae86f46.chunk.js": "/sidliste/static/js/14.cae86f46.chunk.js",
     "static/js/14.cae86f46.chunk.js.map": "/sidliste/static/js/14.cae86f46.chunk.js.map",
-    "static/js/15.0c6cd794.chunk.js": "/sidliste/static/js/15.0c6cd794.chunk.js",
-    "static/js/15.0c6cd794.chunk.js.map": "/sidliste/static/js/15.0c6cd794.chunk.js.map",
+    "static/js/15.699793fc.chunk.js": "/sidliste/static/js/15.699793fc.chunk.js",
+    "static/js/15.699793fc.chunk.js.map": "/sidliste/static/js/15.699793fc.chunk.js.map",
     "static/js/16.24dc965f.chunk.js": "/sidliste/static/js/16.24dc965f.chunk.js",
     "static/js/16.24dc965f.chunk.js.map": "/sidliste/static/js/16.24dc965f.chunk.js.map",
     "static/js/17.f121d883.chunk.js": "/sidliste/static/js/17.f121d883.chunk.js",
@@ -56,12 +56,12 @@
     "static/js/26.dcf08450.chunk.js": "/sidliste/static/js/26.dcf08450.chunk.js",
     "static/js/26.dcf08450.chunk.js.map": "/sidliste/static/js/26.dcf08450.chunk.js.map",
     "index.html": "/sidliste/index.html",
-    "static/css/main.be4c4761.chunk.css.map": "/sidliste/static/css/main.be4c4761.chunk.css.map",
+    "static/css/main.5551978a.chunk.css.map": "/sidliste/static/css/main.5551978a.chunk.css.map",
     "static/js/3.9fa85c91.chunk.js.LICENSE.txt": "/sidliste/static/js/3.9fa85c91.chunk.js.LICENSE.txt",
     "static/media/dictionary.md": "/sidliste/static/media/dictionary.08cffea0.md",
     "static/media/dostupne-bydleni.md": "/sidliste/static/media/dostupne-bydleni.0e562260.md",
     "static/media/druzstevni-bydleni.md": "/sidliste/static/media/druzstevni-bydleni.bb88bc8a.md",
-    "static/media/financializace-bydlení.md": "/sidliste/static/media/financializace-bydlení.3e8dc2af.md",
+    "static/media/financializace-bydleni.md": "/sidliste/static/media/financializace-bydleni.3e8dc2af.md",
     "static/media/gentrifikace.md": "/sidliste/static/media/gentrifikace.9aa07a44.md",
     "static/media/kapitola-ctvrta.md": "/sidliste/static/media/kapitola-ctvrta.08345ba2.md",
     "static/media/kapitola-druha.md": "/sidliste/static/media/kapitola-druha.2d7797b6.md",
@@ -84,9 +84,9 @@
     "static/media/zaver.md": "/sidliste/static/media/zaver.56ef70b1.md"
   },
   "entrypoints": [
-    "static/js/runtime-main.15e08843.js",
+    "static/js/runtime-main.1172625d.js",
     "static/js/3.9fa85c91.chunk.js",
-    "static/css/main.be4c4761.chunk.css",
-    "static/js/main.33172196.chunk.js"
+    "static/css/main.5551978a.chunk.css",
+    "static/js/main.f8fa54bd.chunk.js"
   ]
 }
