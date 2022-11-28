@@ -6,7 +6,7 @@ import { Heading, Image, Video } from "../components";
 import { slugify } from "../utils/slugify";
 import Footer from "../components/Footer";
 
-export default function Home() {
+export default function Home({ handleChapter }) {
   return (
     <>
       <section className="bg-white center">
@@ -25,8 +25,8 @@ export default function Home() {
           <div className="divider center"></div>
         </div>
         <div className={`menu-full flex-center-hor static`} id="kapitoly">
-          {chapters.map((text) => (
-            <Link to={`/chapter/${slugify(text.type)}`}>
+          {chapters.map((text, index) => (
+            <Link to={`/chapter/${slugify(text.type)}`} key={index}>
               <h6>
                 {text.author.map((aut, index) =>
                   index === text.author.length - 1 ? (
@@ -45,9 +45,9 @@ export default function Home() {
         <div className="kapitola center" id="slovnik">
           <h2>Slovník pojmů</h2>
 
-          {dictionary.map((word) => (
-            <Link to={`/pojem/${slugify(word)}`}>
-              <button>{word}</button>
+          {dictionary.map((word, index) => (
+            <Link to={`/pojem/${slugify(word)}`} key={index}>
+              <button onClick={() => handleChapter(index)}>{word}</button>
             </Link>
           ))}
           <p>

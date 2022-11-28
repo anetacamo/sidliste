@@ -9,7 +9,6 @@ import { Heading, Image } from "../components";
 
 export default function Chapters({ item }) {
   const file = slugify(item);
-  console.log(file);
   const [chapter, setChapter] = useState("");
 
   useEffect(() => {
@@ -22,6 +21,10 @@ export default function Chapters({ item }) {
       })
       .catch((err) => console.log(err));
   });
+
+  const relatedChapters = chapters.filter((chapter) =>
+    chapter.pojmy.includes(item)
+  );
 
   return (
     <>
@@ -44,16 +47,13 @@ export default function Chapters({ item }) {
             className={`menu-full flex-center-hor static`}
             style={{ justifyContent: "flex-start", margin: "auto -16px" }}
           >
-            {chapters.map(
-              (item, index) =>
-                index < 3 && (
-                  <Link to={`/chapter/${slugify(item.type)}`} key={index}>
-                    <h6>{item.author}</h6>
-                    <Image path={`/kapitoly/${item.image}`} />
-                    <h5>{item.title}</h5>
-                  </Link>
-                )
-            )}
+            {relatedChapters.map((chapter, index) => (
+              <Link to={`/chapter/${slugify(chapter.type)}`} key={index}>
+                <h6>{chapter.author}</h6>
+                <Image path={`/kapitoly/${chapter.image}`} />
+                <h5>{chapter.title}</h5>
+              </Link>
+            ))}
           </div>
 
           <div className="divider"></div>

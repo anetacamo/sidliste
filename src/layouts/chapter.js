@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 export default function Chapters({ item, next, previous }) {
   const file = slugify(item.type);
-  console.log(file);
   const [chapter, setChapter] = useState("");
 
   useEffect(() => {

@@ -5,10 +5,10 @@ const Video = ({ source }) => {
     <div className="video-container">
       <iframe
         src={source}
-        frameborder="0"
+        frameBorder="0"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowFullScreen
       ></iframe>
     </div>
   );
