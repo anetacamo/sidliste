@@ -1,2 +1,0 @@
-(this.webpackJsonpsjmp=this.webpackJsonpsjmp||[]).push([[9],{44:function(s,t,p){"use strict";p.r(t),t.default=p.p+"static/media/kapitola-sesta.2ce70b42.md"}}]);
-//# sourceMappingURL=9.b5037376.chunk.js.map

@@ -1,0 +1,2 @@
+(this.webpackJsonpsjmp=this.webpackJsonpsjmp||[]).push([[18],{55:function(s,e,i){"use strict";i.r(e),e.default=i.p+"static/media/neoliberalismus.ac9d7e06.md"}}]);
+//# sourceMappingURL=18.fbb0cb67.chunk.js.map

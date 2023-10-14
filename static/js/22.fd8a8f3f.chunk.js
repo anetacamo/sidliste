@@ -1,0 +1,2 @@
+(this.webpackJsonpsjmp=this.webpackJsonpsjmp||[]).push([[22],{59:function(s,i,p){"use strict";p.r(i),i.default=p.p+"static/media/privatizace-bydleni.1ab9d3f2.md"}}]);
+//# sourceMappingURL=22.fd8a8f3f.chunk.js.map

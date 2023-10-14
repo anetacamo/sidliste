@@ -1,0 +1,2 @@
+(this.webpackJsonpsjmp=this.webpackJsonpsjmp||[]).push([[6],{43:function(p,s,t){"use strict";t.r(s),s.default=t.p+"static/media/kapitola-pata.c01638d9.md"}}]);
+//# sourceMappingURL=6.86d6d1a7.chunk.js.map

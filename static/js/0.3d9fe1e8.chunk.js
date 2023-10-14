@@ -1,0 +1,2 @@
+(this.webpackJsonpsjmp=this.webpackJsonpsjmp||[]).push([[0],{40:function(s,t,i){"use strict";i.r(t),t.default=i.p+"static/media/dictionary.08cffea0.md"}}]);
+//# sourceMappingURL=0.3d9fe1e8.chunk.js.map

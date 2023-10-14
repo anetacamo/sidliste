@@ -1,2 +1,0 @@
-(this.webpackJsonpsjmp=this.webpackJsonpsjmp||[]).push([[14],{49:function(s,t,i){"use strict";i.r(t),t.default=i.p+"static/media/druzstevni-bydleni.bb88bc8a.md"}}]);
-//# sourceMappingURL=14.cae86f46.chunk.js.map

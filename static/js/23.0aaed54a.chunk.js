@@ -1,2 +1,0 @@
-(this.webpackJsonpsjmp=this.webpackJsonpsjmp||[]).push([[23],{58:function(s,t,i){"use strict";i.r(t),t.default=i.p+"static/media/revitalizace.4599df83.md"}}]);
-//# sourceMappingURL=23.0aaed54a.chunk.js.map

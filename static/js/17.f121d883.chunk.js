@@ -1,2 +1,0 @@
-(this.webpackJsonpsjmp=this.webpackJsonpsjmp||[]).push([[17],{52:function(s,i,p){"use strict";p.r(i),i.default=p.p+"static/media/komodifikace-bydleni.c5d674b4.md"}}]);
-//# sourceMappingURL=17.f121d883.chunk.js.map
